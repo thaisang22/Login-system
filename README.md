@@ -45,44 +45,44 @@ Login System
 Description
 This project is a login system built using NestJS, a progressive Node.js framework for building efficient and scalable server-side applications.
 
-# Installation
+## Installation
 Clone the Repository
 ```bash
 git clone https://github.com/thaisang22/Login-system.git
 cd Login-system
 ```
-# Install Dependencies
+## Install Dependencies
 ```bash
 npm install
 ```
-## Configuration
-# Set Up Environment
+# Configuration
+## Set Up Environment
 Create a .env file based on the .env.example file and adjust the environment variables as needed:
 ```bash
 DATABASE_URL="postgresql://postgres:yourpassword@localhost:5434/testdb?schema=public"
 JWT_SECRET="test_jwt_secret"
 ```
-# Start Docker Services
+## Start Docker Services
 Use Docker Compose to start services:
 ```bash
 docker-compose up -d
 ```
-# Apply Migrations
+## Apply Migrations
 Sync the database with the schema:
 ```bash
 npx prisma migrate dev
 ```
-# Start the Application
+## Start the Application
 ```bash
 npm run start
 ```
-# Running Tests
+## Running Tests
 Execute the tests with:
 ```bash
 npm test
 ```
 
-# Access Prisma Studio
+## Access Prisma Studio
 Interact with the database via Prisma Studio:
 ```bash
 npx prisma studio
