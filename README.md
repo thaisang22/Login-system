@@ -76,6 +76,9 @@ npx prisma migrate dev
 ```bash
 npm run start
 ```
+## Open Swagger API 
+browser at http://localhost:3000/api
+
 ## Running Tests
 Execute the tests with:
 ```bash
